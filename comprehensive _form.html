@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Comprehensive Web Form</title>
+</header>
+
+<body>
+    
+    <!--Task 1-->
+    <form>
+        <h3>Language</h3>
+        <label for="language">Select your favorite language:</label>
+        <select name="langauge" id="langauge">
+            <option value="python">Python</option>
+            <option value="csharp">C#</option>
+            <option value="java">Java</option>
+        </select>
+        <br>
+
+        <h3>Expertise</h3>
+        <fieldset> <!--For easier readibility-->
+            <legend for="experience">Select your level of expertise:</legend>
+            <input type="radio" name="experience" id="beginner" value="beginner">
+            <label for="beginner">Beginner</label>
+            <input type="radio" name="experience" id="intermediate" value="intermediate">
+            <label for="intermediate">Intermediate</label>
+            <input type="radio" name="experience" id="advanced" value="advanced">
+            <label for="advanced">Advanced</label>
+        </fieldset>
+
+        <br>
+        <h3>Platform</h3>
+        <fieldset> <!--For easier readibility-->
+            <legend for="platform">Select your preferred development platform:</legend>
+            <input type="checkbox" name="platform" id="web" value="web">
+            <label for="web">Web</label>
+            <input type="checkbox" name="platform" id="mobile" value="mobile">
+            <label for="mobile">Mobile</label>
+            <input type="checkbox" name="platform" id="desktop" value="desktop">
+            <label for="desktop">Desktop</label>
+        </fieldset>
+    </form>
+
+</body>
+</html>
